@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Computer Science Department</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+        .news-item {
+            border-bottom: 1px solid whitesmoke;
+            padding: 10px 0;
+        }
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .flex-item {
+            flex: 1;
+            min-width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Department of Computer Science</h1>
+        <p>Quaid-i-Azam University, Islamabad</p>
+    </div>
+
+    <div class="nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="academics.html">Academics</a>
+        <a href="faculty.html">Faculty</a>
+        <a href="research.html">Research</a>
+        <a href="funded-projects.html">Funded Projects</a>
+        <a href="admissions.html">Admissions</a>
+        <a href="index.html">Alumni</a>
+        <a href="contact Us.html">contact Us</a>
+    </div>
+
+    <div class="content">
+        <h2 style="color: orange;">Welcome to Our Computer Science Department</h2>
+        <p>Providing quality education since 1976</p>
+        <img src="images/deptfac.jpg" style="max-width: 100%; height: auto;">
+        
+        <h3 style="border-bottom: 2px solid orange; padding-bottom: 5px;">Important Documents</h3>
+        <ul>
+            <li><a href="docs/timetable.pdf" style="color: orange;">Current Semester Timetable</a></li>
+            <li><a href="docs/academic-calendar.pdf" style="color: orange;">Academic Calendar</a></li>
+            <li><a href="docs/course-catalog.pdf" style="color: orange;">Course Catalog</a></li>
+        </ul>
+
+        <h3 style="border-bottom: 2px solid orange; padding-bottom: 5px;">Department News</h3>
+        <div class="news-item">
+            <p>Our university ranked among top institutions for Computer Science in national rankings.</p>
+            <p><small>Posted: June 15, 2023</small></p>
+        </div>
+        <div class="news-item">
+            <p>Annual programming competition winners announced.</p>
+            <p><small>Posted: May 28, 2023</small></p>
+        </div>
+        <div class="news-item">
+            <p>New research lab opened with focus on artificial intelligence.</p>
+            <p><small>Posted: April 10, 2023</small></p>
+        </div>
+
+        <h3 style="border-bottom: 2px solid orange; padding-bottom: 5px;">About Our Department</h3>
+        <div class="flex-container">
+            <div class="flex-item">
+                <img src="images/cs_dept.jfif" alt="Department Building" style="max-width: 100%;">
+            </div>
+            <div class="flex-item">
+                <p>The Computer Science Department at our university is committed to excellence in education and research. We offer undergraduate and graduate programs designed to prepare students for successful careers in technology.</p>
+                <p>Our faculty members are actively engaged in cutting-edge research across various domains of computer science, providing students with opportunities to participate in meaningful projects.</p>
+            </div>
+        </div>
+
+        <h3 style="border-bottom: 2px solid orange; padding-bottom: 5px;">Research</h3>
+        <div class="flex-container">
+            <div class="flex-item" style="border: 1px solid whitesmoke; padding: 10px;">
+                <img src="images/Hii.jpg" style="max-width: 100%;">
+                <h4>Human Information Interaction</h4>
+                <hr style="border-color: orange;">
+                <p>Investigates all aspects of information usage by humans. Research focus varies for information seeking behavior, information interaction techniques, storage and retrieval models/frameworks for structured and unstructured information, and information services for human information needs.</p>
+            </div>
+            <div class="flex-item" style="border: 1px solid whitesmoke; padding: 10px;">
+                <img src="images/KE.jpg" style="max-width: 100%;">
+                <h4>Knowledge Engineering</h4>
+                <hr style="border-color: orange;">
+                <p>Focuses on analysis of data, metadata and knowledge using supervised and unsupervised mining algorithms. Target areas include software architecture, web services, and overlay networks.</p>
+            </div>
+            <div class="flex-item" style="border: 1px solid whitesmoke; padding: 10px;">
+                <img src="images/NC.jpg" style="max-width: 100%;">
+                <h4>Networking and Communication</h4>
+                <hr style="border-color: orange;">
+                <p>This group focuses on networking, distributed systems, privacy, and cloud computing, including smart city and IoT applications.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Computer Science Department, QAU. All rights reserved.</p>
+    </footer>
+</body>
+</html>
