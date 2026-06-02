@@ -42,7 +42,7 @@ wad-assignment-1/
 
 ## How to Run / View the Assignment
 1. Clone or download this repository.
-2. Open `/tmp/workspace/saqi-saqi/wad-assignment-1/index.html` in any modern browser (Chrome, Edge, Firefox).
+2. Open `index.html` in any modern browser (Chrome, Edge, Firefox).
 3. Use the navigation menu to browse other pages.
 
 > Tip: You can also use a simple local server (optional), e.g. `python -m http.server`, then open `http://localhost:8000`.
